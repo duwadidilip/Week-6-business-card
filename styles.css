@@ -1,0 +1,67 @@
+/* Global page background */
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Card design */
+.card {
+  background-color: white;
+  border: 2px solid #333;   /* ✔ required */
+  padding: 20px;            /* ✔ required */
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+/* Name */
+#profile-name {
+  color: #006241;
+  font-size: 26px;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-bottom: 20px; /* ✔ required */
+}
+
+/* Contact info */
+.card-info {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 20px; /* ✔ required */
+}
+
+/* Button group */
+.button-group {
+  margin-top: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #006241;
+  color: white;
+  cursor: pointer;
+
+  margin-right: 15px; /* ✔ required */
+}
+
+/* Optional hover effect */
+button:hover {
+  background-color: #004d33;
+}
